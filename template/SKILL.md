@@ -48,7 +48,7 @@ Use this skill when:
 ## Error Handling
 
 ## Validation
-[File reference example]
+> File reference example
 
 Run the validation script:
 ```bash
