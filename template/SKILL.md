@@ -28,3 +28,13 @@ Before using this skill, ensure the following requirements are met:
 - [ ] Required environment variables
 - [ ] Network access is available for external API or data source calls (if applicable)
 - [ ] Target tools or services used by this skill are accessible and operational
+
+## When to Use This Skill
+### trigger conditions:
+Use this skill when:
+- condition 1
+- condition 2
+- condition 3
+### Do NOT Use This Skill When:
+- exclusion case 1
+- exclusion case 2
