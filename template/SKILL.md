@@ -48,5 +48,12 @@ Use this skill when:
 ## Error Handling
 
 ## Validation
+[File reference example]
+
+Run the validation script:
+```bash
+python scripts/validate_dataset.py data/my_dataset.csv
+```
+
 
 ## Examples
