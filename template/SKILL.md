@@ -38,3 +38,15 @@ Use this skill when:
 ### Do NOT Use This Skill When:
 - exclusion case 1
 - exclusion case 2
+
+## Execution Flow
+
+## Tool Guidance
+
+## Response Guidelines
+
+## Error Handling
+
+## Validation
+
+## Examples
