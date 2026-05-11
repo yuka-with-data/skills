@@ -101,6 +101,8 @@ Every Skill must contain a `SKILL.md` file that serves as the primary entry poin
 
 The `SKILL.md` file should follow a lightweight, portable structure guided by the Agent Skills Specification. 
 
+### YAML Frontmatter
+
 At minimum, each `SKILL.md` should include YAML frontmatter followed by Markdown content.
 
 ```yaml
@@ -121,6 +123,8 @@ metadata:
   version: "1.0"
 ---
 ```
+### The Body
+
 The markdown body after the frontmatter should include the skill instructions. 
 
 The recommended body sections include:
@@ -129,3 +133,10 @@ The recommended body sections include:
 - Example inputs and outputs
 - Error handling
 - Edge cases
+
+### What `SKILL.md` is for
+The Skill layer should focus on:
+- agent behavior
+- workflow guidance
+- tool orchestration
+- execution patterns
