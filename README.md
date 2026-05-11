@@ -48,3 +48,19 @@ Skills are designed to improve how AI Agents:
 - produce more predictable outcomes
 
 Unlike core application logic or backend systems, Skills act as a lightweight orchestration and guidance layer for agents. 
+
+## Skill structure
+Each Skill lives in its own directory and contains a `SKILL.md` file.
+
+```bash
+skills/
+├── skill-name/
+│   ├── SKILL.md                # Required
+│   ├── references/             # Optional: documentation
+│   │   ├── api_schema.md
+│   │   └── domain_notes.md
+│   ├── scripts/                # Optional: executable code
+│   │    └── helper_script.py
+│   ├── assets/                 # Optional: templates, resources
+└── ...                         # Any additional files/directories
+```
