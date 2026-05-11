@@ -15,3 +15,13 @@ Some production Skills may be implemented directly inside their respective proje
 - templates
 - demonstrations
 - shared Skill patterns
+
+## Skill Specification
+The Skill structure and conventions used in this repository are inspired by and generally follow the Skill specification and ecosystem guidance provided by:
+- [Agent Skills](https://agentskills.io/)
+
+The repository is designed to remain lightweight, modular, and adaptable across different agent ecosystem such as:
+- Claude
+- Codex
+- MCP-based systems
+- other open-source, Skill-compatible frameworks
