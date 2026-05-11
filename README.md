@@ -64,3 +64,34 @@ skills/
 │   ├── assets/                 # Optional: templates, resources
 └── ...                         # Any additional files/directories
 ```
+
+## Core Components
+### `SKILL.md`
+The main and **required** instruction file for the SKILL.
+
+Typically includes:
+- metadata
+- activation guidance
+- execution workflow
+- tool usage instructions
+- response formatting rules
+- examples
+
+### `scripts/`
+**Optional** lightweight helper scripts used by the Skill.
+
+Examples:
+- utility script
+- preprocessing helpers
+- formatting tools
+
+Core business logit and large application system should remain outside the Skill directory.
+
+### `references/`
+**Optional** supporting materials used by the Skill.
+
+Example:
+- schemas
+- documentation
+- examples
+- domain-specific notes
