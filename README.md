@@ -151,3 +151,12 @@ Tools / MCP / APIs
  ↓ 
 Application Logic & Data Sources
 ```
+
+## Compatibility
+This repository follows convensions inspired by:
+- Agent Skills
+- Hugging Face Context Engineering
+- Codex Skills
+- Claude-style agent workflows
+
+The goal is to keep Skills portable and adaptable across multiple agent ecosystem.
