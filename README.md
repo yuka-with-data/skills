@@ -141,6 +141,8 @@ The Skill layer should focus on:
 - tool orchestration
 - execution patterns
 
+#### For concrete implementation patterns and directory structure examples, refer to the `templates/` directory in this repository.
+
 ## Recommended Architecture
 ```txt
 Skill Layer
