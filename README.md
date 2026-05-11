@@ -140,3 +140,14 @@ The Skill layer should focus on:
 - workflow guidance
 - tool orchestration
 - execution patterns
+
+## Recommended Architecture
+```txt
+Skill Layer
+ ↓ 
+Agent Runtime (Codex / Claude / etc.)
+ ↓ 
+Tools / MCP / APIs
+ ↓ 
+Application Logic & Data Sources
+```
