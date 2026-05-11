@@ -40,12 +40,32 @@ Use this skill when:
 - exclusion case 2
 
 ## Execution Flow
+Follow this step-by-step process:
+1. A
+2. B
+3. C
+4. D
 
 ## Tool Guidance
+### Tool_name1
+Purpose:
+- A
+- B
+
+Key Rules:
+- Rule 1
+- Rule 2
 
 ## Response Guidelines
+- Keep outputs structured and predictable
+- Avoid unnecessary verbosity
+- etc.
 
 ## Error Handling
+if execution fails:
+- Identify the cause
+- Provide fallback stragety if possible
+- etc.
 
 ## Validation
 > File reference example
@@ -55,5 +75,14 @@ Run the validation script:
 python scripts/validate_dataset.py data/my_dataset.csv
 ```
 
-
 ## Examples
+### Example 1
+User: "Example request"
+
+Flow:
+- Check prerequisites
+- Select tool
+- Execute
+- Format output
+
+### Example 2
