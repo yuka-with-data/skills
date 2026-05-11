@@ -95,3 +95,37 @@ Example:
 - documentation
 - examples
 - domain-specific notes
+
+## `SKILL.md` Specification & Requirements
+Every Skill must contain a `SKILL.md` file that serves as the primary entry point for agent discovery and execution guidance.
+
+The `SKILL.md` file should follow a lightweight, portable structure guided by the Agent Skills Specification. 
+
+At minimum, each `SKILL.md` should include YAML frontmatter followed by Markdown content.
+
+```yaml
+---
+name: skill-name
+description: A description of what this skill does and when to use it.
+---
+```
+
+Example with optional fields:
+```yaml
+---
+name: skill-name
+description: A description of what this skill does and when to use it.
+license: MIT
+metadata:
+  author: example-org
+  version: "1.0"
+---
+```
+The markdown body after the frontmatter should include the skill instructions. 
+
+The recommended body sections include:
+- Overview
+- Step by step instructions
+- Example inputs and outputs
+- Error handling
+- Edge cases
