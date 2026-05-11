@@ -25,3 +25,26 @@ The repository is designed to remain lightweight, modular, and adaptable across 
 - Codex
 - MCP-based systems
 - other open-source, Skill-compatible frameworks
+
+## What a Skill is
+Skills are modular compatibility packages that help AI agent perform specific tasks more reliably and consistently. 
+
+A Skill provides:
+- structured instructions
+- operational guidance
+- activation context
+- optional helper references or scripts
+- reusable workflows for specialized domains
+
+A Skill is ***NOT***:
+- a full application
+- a standalone backend service
+- the main execusion engine of an AI Agent project
+
+Skills are designed to improve how AI Agents:
+- understand tasks
+- select tools
+- follow repeatable execution patterns
+- produce more predictable outcomes
+
+Unlike core application logic or backend systems, Skills act as a lightweight orchestration and guidance layer for agents. 
