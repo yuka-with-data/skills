@@ -11,7 +11,7 @@ metadata:
   maintainer: "user"
 allowed-tools: Bash(git:*) Bash(jq:*) Read
 ---
-# Document Contributing Skill
+# [Template] Document Contributing Skill
 ## Overview
 Brief description of what the skill does in a concise and practical way
 
