@@ -49,6 +49,36 @@ Skills are designed to improve how AI Agents:
 
 Unlike core application logic or backend systems, Skills act as a lightweight orchestration and guidance layer for agents. 
 
+## Prompt vs System Prompt vs Skill
+Understanding the difference between these layer is important when building AI agents and resuable Skills. 
+
+| Layer | Scope | Purpose | Persistence | Controlled By |
+|---|---|---|---|---|
+| **System Prompt** | Global | Defines the agent’s overall behavior, rules, and personality | Always active during runtime | Developer |
+| **Skill** | Domain capability | Provides reusable task knowledge, workflows, scripts, and references | Loaded dynamically when relevant | Developer |
+| **Prompt** | Task request | Tells the agent what to do for a specific interaction | Temporary / one-time | User |
+
+### Mental Model
+- **System Prompt** → *How the agent should behave*
+- **Skill** → *What specialized capability the agent can use*
+- **Prompt** → *What the user wants done right now* 
+
+### Example: Difference
+A coding agent might have
+- A **System Prompt** that says:
+  - “Be concise”
+  - “Explain reasoning clearly”
+  - “Follow safe coding practices”
+
+- A **Python Debugging Skill** containing:
+  - debugging workflows
+  - validation scripts
+  - common error patterns
+  - troubleshooting references
+
+- A **User Prompt** like:
+  - “Help me fix this async bug in FastAPI”
+
 ## Skill structure
 Each Skill lives in its own directory and contains a `SKILL.md` file.
 
