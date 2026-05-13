@@ -192,3 +192,16 @@ This repository follows convensions inspired by:
 - Claude-style agent workflows
 
 The goal is to keep Skills portable and adaptable across multiple agent ecosystem.
+
+## `SKILL.md` File Size Guideline
+- Metadata (frontmatter): lightweight (~ 100 tokens and ~10–25 lines, always loaded as part of skill listing)
+- SKILL.md body (core instructions): ≤ 500 lines and ≤ 5,000 tokens (loaded on activation)
+- Skill listing visibility (Codex contraint):
+  - Initial skill descriptions are compressed into ~2% of context or ~8,000 characters total
+  - Large skill sets may be shortened or partially omitted from the initial list
+  - Description is prioritized for compression → keep it high-signal and compact
+- Design implication: SKILL.md must assume it will often be seen in a compressed form before activation
+- Architecture principle (progressive disclosure):
+  - SKILL.md = decision layer (what to do, when, and which tools to use)
+  - external files = detailed knowledge (how to do it)
+  - details must be explicitly loaded when required
