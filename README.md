@@ -205,3 +205,10 @@ The goal is to keep Skills portable and adaptable across multiple agent ecosyste
   - SKILL.md = decision layer (what to do, when, and which tools to use)
   - external files = detailed knowledge (how to do it)
   - details must be explicitly loaded when required
+
+  ## Resources
+  https://agentskills.io/skill-creation/best-practices
+
+  https://developers.openai.com/codex/skills
+  
+  https://huggingface.co/learn/context-course/unit1/skill-format
