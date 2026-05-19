@@ -74,6 +74,9 @@ Run the validation script:
 ```bash
 python scripts/validate_dataset.py data/my_dataset.csv
 ```
+## Progressive Disclosure
+Load additional references only when relevant to the current task.
+- See `references/example_references.md` for specific tasks
 
 ## Examples
 ### Example 1
