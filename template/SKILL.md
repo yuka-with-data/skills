@@ -77,6 +77,7 @@ python scripts/validate_dataset.py data/my_dataset.csv
 ## Progressive Disclosure
 Load additional references only when relevant to the current task.
 - See `references/example_references.md` for specific tasks
+- See `scripts/example_script.py` for a specific script
 
 ## Examples
 ### Example 1
