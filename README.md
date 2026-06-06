@@ -1,20 +1,26 @@
 # Skills
-This repository contains reusable AI agent Skills designed for integration within my broader project ecosystem.
+> A curated collection of AI Agent Skills, reusable Skill patterns, templates, examples, and reference implementations.
 
-These Skills are actively used as operational capability layers alongside tools, MCP servers, APIs, and application backends across my AI and agent-based projects.
+This repository serves as both a public resource and a showcase of practical Skill development across modern AI agent ecosystems.
 
-The goal of this repository is to:
-- demonstrate practical AI agent Skill structures and workflows
-- provide reusable Skill templates and reference implementations
-- standardize reusable Skill patterns across projects
-- showcase portable Skills compatible with modern agent runtimes
-- serve as a reference resource for future Skill development
+Skills are actively used as operational capability layers alongside tools, MCP servers, APIs, and application backends across my AI and agent-based projects.
 
-Some production Skills may be implemented directly inside their respective projects or MCP ecosystems, while this repository primarily focuses on:
-- reusable examples
-- templates
-- demonstrations
-- shared Skill patterns
+The goal is to help developers:
+- understand how Skills are structured and organized
+- explore reusable Skill patterns and workflows
+- discover practical Skill examples and templates
+- build portable and maintainable Skills across projects
+
+## What You'll Find
+This repository includes:
+- reusable Skill templates
+- reference implementations
+- demonstration Skills
+- documented Skill patterns
+- selected production-ready Skill examples
+- personal Skill showcases and experiments
+
+While some production Skills may live directly inside applications, MCP servers, or other repositories, this collection focuses on reusable knowledge, examples, and patterns that can be adapted across projects.
 
 ## Skill Specification
 The Skill structure and conventions used in this repository are inspired by and generally follow the Skill specification and ecosystem guidance provided by:
