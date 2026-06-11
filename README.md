@@ -212,9 +212,15 @@ The goal is to keep Skills portable and adaptable across multiple agent ecosyste
   - external files = detailed knowledge (how to do it)
   - details must be explicitly loaded when required
 
-  ## Resources
-  https://agentskills.io/skill-creation/best-practices
+## Resources
+Agent Skills Spec:
+https://agentskills.io/skill-creation/best-practices
 
-  https://developers.openai.com/codex/skills
-  
-  https://huggingface.co/learn/context-course/unit1/skill-format
+Open AI Codex Skills:
+https://developers.openai.com/codex/skills
+
+Hugging Face Skill Format:
+https://huggingface.co/learn/context-course/unit1/skill-format
+
+How Skills compares to prompts, Projects, MCP, and subagents:
+https://claude.com/blog/skills-explained
