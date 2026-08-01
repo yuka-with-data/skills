@@ -1,0 +1,11 @@
+{
+  "globs": [
+    "**/*.md"
+  ],
+  "config": {
+    // Don't enforce maximum line length.
+    "MD013": false,
+    // Disable numbered list indentation rule.
+    "MD029": false
+  }
+}
